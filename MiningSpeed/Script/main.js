@@ -47,9 +47,13 @@ class Pickaxe {
     prefix;
     mineable;
     type; // 곡괭이 / 드릴
+
+    Pickaxe(name, power, range, speed, bestSpeed, prefix, mineable) {
+
+    }
 }
 
-const minable = [
+const mineable = [
     "Everything below Meteorite",
     "Meteorite",
     "Meteorite, Demonite, Crimtane",
